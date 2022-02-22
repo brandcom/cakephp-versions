@@ -1,4 +1,4 @@
-# CakephpVersions plugin for CakePHP
+# Versions plugin for CakePHP
 
 ## Installation
 
@@ -11,3 +11,6 @@ composer require jbennecker/cakephp-versions
 ```
 
 
+```
+bin/cake plugin load Versions
+```

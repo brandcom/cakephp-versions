@@ -1,6 +1,6 @@
 <?php
 
-namespace CakephpVersions\Controller;
+namespace Versions\Controller;
 
 use App\Controller\AppController as BaseController;
 

@@ -1,11 +1,11 @@
 <?php
 
-namespace CakephpVersions;
+namespace Versions;
 
 use Cake\Core\BasePlugin;
 
 /**
- * Plugin for CakephpVersions
+ * Plugin for Versions
  */
 class Plugin extends BasePlugin
 {

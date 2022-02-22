@@ -1,16 +1,20 @@
-# Versions plugin for CakePHP
-
-## Installation
-
-You can install this plugin into your CakePHP application using [composer](https://getcomposer.org).
-
-The recommended way to install composer packages is:
+# cakephp-versions
 
 ```
 composer require jbennecker/cakephp-versions
 ```
 
-
 ```
 bin/cake plugin load Versions
+```
+
+```
+// config/app_versions.php
+<?php
+
+return [
+    'Versions' => [
+        'token' => 'YOUR_TOKEN',
+    ],
+];
 ```

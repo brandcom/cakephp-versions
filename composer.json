@@ -1,0 +1,15 @@
+{
+    "name": "jbennecker/cakephp-versions",
+    "description": "",
+    "type": "cakephp-plugin",
+    "license": "MIT",
+    "require": {
+        "ext-json": "*",
+        "cakephp/cakephp": "^3.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "CakephpVersions\\": "src/"
+        }
+    }
+}

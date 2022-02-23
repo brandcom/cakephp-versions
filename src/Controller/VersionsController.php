@@ -6,12 +6,6 @@ use Cake\Core\Configure;
 
 class VersionsController extends AppController
 {
-    public function initialize()
-    {
-        parent::initialize();
-        $this->Auth->allow(['index']);
-    }
-
     public function index()
     {
         $token = Configure::read('Versions.token');
@@ -34,7 +28,7 @@ class VersionsController extends AppController
             'cms_version' => $version,
         ];
 
-        $this->set('versions', $versions);
-        $this->set('_serialize', 'versions');
+        echo json_encode($versions);
+        exit;
     }
 }

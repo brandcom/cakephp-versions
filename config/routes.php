@@ -5,6 +5,6 @@ use Cake\Routing\RouteBuilder;
 use Cake\Routing\Router;
 
 Router::plugin('Versions', ['path' => '/versions'], function (RouteBuilder $routes) {
-    $routes->extensions(['json']);
+    $routes->setExtensions(['json']);
     $routes->fallbacks(DashedRoute::class);
 });

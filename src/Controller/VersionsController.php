@@ -29,7 +29,7 @@ class VersionsController extends AppController
         }
 
         $versions = [
-            'php' => phpversion(),
+            'php' => PHP_VERSION,
             'cms' => 'CakePHP',
             'cms_version' => $version,
         ];
